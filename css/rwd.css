@@ -1,0 +1,58 @@
+@media screen and (min-width: 40em){
+    html{
+        overflow-y: hidden;
+    }
+    .main-block{
+        overflow-y:scroll;
+        max-height: 800px;
+    }
+    .info-box p{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 1000px){
+    .main-nav a{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 1500px){
+    .main-nav a{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 40em) {
+    
+    .wrapper.fw.row{
+        display: block;
+    }
+    .main-block{
+        width: 95%;
+        margin: 10px auto 0;
+    }
+    .main-nav.nav-collapse{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        height: auto;
+    }
+    .nav-collapse.main-nav li{
+        margin: 0 2.5%;
+        background-color: #222
+    }
+    .nav-toggle{
+        background-color: #222;
+        color: #fff;
+    }
+    .main-nav a{
+        font-size: 28px;
+        
+        margin: 0 2.5%;
+    }
+    .main-nav.nav-toggle{
+        text-align: center;
+    }
+    .wrapper.fw{
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+        <script src="js/script.js"></script>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/rwd.css">
+        <link rel="stylesheet" href="responsive-nav.js-master/responsive-nav.css">
+        <script src="responsive-nav.js-master/responsive-nav.min.js"></script>
+        <title>Forside</title>
+    </head>
+    <body>
+        <header>
+            <h1>Peter Winther: IT-E</h1>
+        </header>
+        <div class="wrapper fw row">
+            <nav class="main-nav nav-collapse">
+                <ul>
+                    <li><a href="#" class="navMenu" value="forside">Forside</a></li>
+                    <li><a href="#" class="navMenu" value="nebula">Nebula</a></li>
+                    <li><a href="#">Internet of things</a></li>
+                    <li><a href="#">Datalovgivning</a></li>
+                    <li><a href="#">Arbejdsmiljø</a></li>
+                    <li><a href="#">Internettets betydning</a></li>
+                </ul>
+            </nav>
+            <main class="main-block">
+                <div class="contentBox" id="forside">
+                    <h1>Forside</h1>
+                    <img class="header-img" src="https://unsplash.it/1100/300">
+                    <div class="info-box">
+                        <h2>Portfolio-sitet</h2>
+                        <p>
+                            (Ingen tekst er endelig)<br>
+                            Mit portfolio-site er bygget meget simpelt op. Jeg har min menu, som ikke er links til undersider, men er Javascript, som bytter nogle elementer ud med hinanden.
+                            Jeg mener at det er bedst at bruge, fordi det mindsker tiden for at loade nyt content på et site som det her, og mængden af plads mine filer bruger er mindre.<br>
+                            <br>
+                            Jeg har mine underfaner, som er nemme at komme til, og det er nemt at læse min information på siden.
+                        </p>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="info-box">
+                        <h2>Wireframe til sitet</h2>
+                        <img src="img/wireframe.jpg" class="afsnit-img center">
+                        <p>
+                            Mit wireframe til sitet (normal web til venstre, lille skærm/smartphone til højre) er ikke særlig advanceret. Man scroller igennem hovedblokken af indhold, mens man har en menu på venstre side til hurtigt at springe videre til andet indhold.<br> Smartphone-designet er lavet på samme måde i forhold til den store blok, men menuen sidder nu toppen, og er "drop-down".<br>
+                            <br><a target="_blank" href="https://app.moqups.com/PeterWinther/DcMxnk7KxW/view">Link til Moqups.com</a>
+                        </p>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="info-box">
+                        <h2>Farver of tema</h2>
+                        <img class="afsnit-img float right" src="https://unsplash.it/500/500" alt="Afsnit image">
+                        <p>
+                            Efter at have siddet i lidt tid i <a href="http://paletton.com" target="_blank">Paletton</a> uden at finde et farvetema som passede til mine ideer, valgte jeg at gå efter et sort/hvid tema i stedet. Jeg følte at overgangen mellem sort og hvid passede meget godt til et site hvor man skal læse meget, så det ikke bliver hårdt for øjnene.<br>
+                            <br><a href="" target="_blank">Link til Paletton.com</a>
+                        </p>
+                        <div class="clearfix"></div>
+                    </div>
+                </div><!-FORSIDE SLUTNING->
+                
+                
+            </main>
+        </div>
+        
+        <script>
+            var nav = responsiveNav(".nav-collapse",{
+            label:"Menu",
+            transition: 284,
+            });
+        </script>
+    </body>
+</html>

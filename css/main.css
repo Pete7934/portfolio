@@ -1,0 +1,129 @@
+
+html{
+    font-family: 'Slabo 27px', serif;
+}
+body{
+    background-color: #222;
+}
+.row{
+    display: flex;
+}
+.clearfix{
+    clear: both;
+}
+/*----------------------WRAPPER----------------------*/
+.wrapper{
+    margin: 0px auto;
+    padding: 0px;
+}
+.wrapper.sm{
+    max-width:768px;
+}
+.wrapper.md{
+    max-width: 1024px;
+}
+.wrapper.lg{
+    max-width: 1440px;
+}
+.wrapper.fw{
+    margin-top: 20px;
+}
+
+/*----------------------NAV-COLLAPSE----------------------*/
+.main-nav.nav-collapse{
+    width: 20%;
+    margin: 0 2%;
+    background-color: #fff;
+    height: 100%;
+}
+.main-nav.nav-collapse ul li{
+    margin: 0;
+}
+.main-nav.nav-collapse ul li:first-child{
+    margin-top: 0;
+}
+.main-nav.nav-collapse ul li a{
+    color: #000;
+    text-decoration: none;
+    padding: 15px 10px;
+    display: block;
+    background-color: #fff;
+    transition: 0.4s;
+}
+.main-nav.nav-collapse ul li a:hover{
+    color: #fff;
+    background-color: #222;
+}
+.nav-toggle{
+    display: block;
+    background-color: #fff;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    transition: 0.4s;
+    font-size: 28px;
+    padding: 15px 10px;
+}
+.nav-toggle:hover{
+    color: #fff;
+    background-color: #222;
+}
+/*----------------------HEADER----------------------*/
+header h1{
+    text-align: center;
+    font-size: 50px;
+    background-color: #fff;
+    padding: 10px;
+    font-weight: bolder;
+}
+/*----------------------MAIN----------------------*/
+.main-block{
+    background-color: #fff;
+    width: 58%;
+    padding-bottom: 50px;
+}
+.main-block>div+div{
+    display: none;
+}
+.main-block h1{
+    text-align: center;
+    font-size: 4em;
+    font-weight: bolder;
+    padding: 10px 0;
+}
+.header-img{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+.info-box{
+    margin-top: 20px;
+}
+.info-box h2{
+    text-align: center;
+    font-size: 2.4em;
+    padding: 8px 0;
+}
+.afsnit-img.center{
+    margin: 0 auto;
+    display: block;
+    width: 90%;
+}
+.afsnit-img.float.left{
+    float: left;
+}
+.afsnit-img.float.right{
+    float: right;
+}
+.afsnit-img.float{
+    margin: 5px auto;
+    max-width: 48%;
+    padding: 10px;
+}
+.info-box p{
+    line-height: 1.5;
+    margin: 10px 20px;
+    color: #333;
+    text-align: justify;
+}
+/*----------------------FOOTER----------------------*/
