@@ -43,7 +43,7 @@ body{
     margin-top: 0;
 }
 .main-nav.nav-collapse ul li a{
-    color: #000;
+    color: #222;
     text-decoration: none;
     padding: 15px 10px;
     display: block;
@@ -58,7 +58,7 @@ body{
     display: block;
     background-color: #fff;
     text-align: center;
-    color: #000;
+    color: #222;
     text-decoration: none;
     transition: 0.4s;
     font-size: 28px;
@@ -81,15 +81,20 @@ header h1{
     background-color: #fff;
     width: 58%;
     padding-bottom: 50px;
+    overflow-x: hidden;
 }
 .main-block>div+div{
     display: none;
 }
 .main-block h1{
     text-align: center;
-    font-size: 4em;
+    font-size: 5em;
     font-weight: bolder;
     padding: 10px 0;
+    transform: scale(1.4,1);
+}
+.main-block a:hover{
+    color: red;
 }
 .header-img{
     margin: 0 auto;
@@ -103,6 +108,7 @@ header h1{
     text-align: center;
     font-size: 2.4em;
     padding: 8px 0;
+    font-weight: bold;
 }
 .afsnit-img.center{
     margin: 0 auto;
@@ -123,7 +129,7 @@ header h1{
 .info-box p{
     line-height: 1.5;
     margin: 10px 20px;
-    color: #333;
+    color: #222;
     text-align: justify;
 }
 /*----------------------FOOTER----------------------*/
