@@ -1,3 +1,8 @@
+@media screen and (min-width: 10em){
+    .main-block h1{
+        font-size: 2.6em;
+    }
+}
 @media screen and (min-width: 40em){
     html{
         overflow-y: hidden;
@@ -9,18 +14,31 @@
     .info-box p{
         font-size: 20px;
     }
+    .main-block h1{
+        font-size: 3em;
+    }
 }
 @media screen and (min-width: 1000px){
     .main-nav a{
         font-size: 20px;
+    }
+    .main-block h1{
+        font-size: 3.5em;
     }
 }
 @media screen and (min-width: 1500px){
     .main-nav a{
         font-size: 30px;
     }
+    .main-block h1{
+        font-size: 4em;
+    }
 }
-
+@media screen and (max-width: 1000px){
+    .main-block{
+        width: 75%;
+    }
+}
 @media screen and (max-width: 40em) {
     
     .wrapper.fw.row{
@@ -30,6 +48,7 @@
         width: 95%;
         margin: 10px auto 0;
     }
+    
     .main-nav.nav-collapse{
         width: 100%;
         margin: 0;
