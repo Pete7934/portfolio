@@ -3,7 +3,8 @@ branch = document.getElementsByClassName('navMenu');
     for(var l = 0; l < branch.length; l++){
         console.log(branch[l]);
         branch[l].addEventListener('click', function(){
-            var temp = this.getAttribute('value');
+            var temp = this.getAttribute('id');
+            temp = temp.slice(0,3);
             clearDisplay(temp);
         });
     }
