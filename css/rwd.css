@@ -19,7 +19,7 @@
     }
 }
 @media screen and (min-width: 1000px){
-    .main-nav a{
+    .main-nav li{
         font-size: 20px;
     }
     .main-block h1{
@@ -27,7 +27,7 @@
     }
 }
 @media screen and (min-width: 1500px){
-    .main-nav a{
+    .main-nav li{
         font-size: 30px;
     }
     .main-block h1{

@@ -42,7 +42,7 @@ body{
 .main-nav.nav-collapse ul li:first-child{
     margin-top: 0;
 }
-.main-nav.nav-collapse ul li a{
+.main-nav.nav-collapse ul li{
     color: #222;
     text-decoration: none;
     padding: 15px 10px;
@@ -50,8 +50,9 @@ body{
     background-color: #fff;
     transition: 0.4s;
     word-break: break-all;
+    cursor: pointer;
 }
-.main-nav.nav-collapse ul li a:hover{
+.main-nav.nav-collapse ul li:hover{
     color: #fff;
     background-color: #222;
 }
@@ -126,7 +127,7 @@ header h1{
 }
 .afsnit-img.float{
     margin: 5px auto;
-    max-width: 48%;
+    width: 48%;
     padding: 10px;
 }
 .info-box p{
